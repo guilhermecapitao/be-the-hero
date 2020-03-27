@@ -34,12 +34,10 @@ export default function Logon() {
       history.push('/')
     } catch (err) {
       alert(`Erro no cadastro: ${err}`)
+      console.log(err)
     }
 
   }
-
-
-
 
   return (
     <div className="register-container">

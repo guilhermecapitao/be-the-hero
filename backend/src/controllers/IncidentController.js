@@ -29,12 +29,17 @@ module.exports = {
         const { title, description, value } = req.body;
         const ong_id = req.headers.authorization;
 
+        console.log(req.body)
+        console.log(ong_id)
+
         const [id] = await connection('incidents').insert({
             title,
             description,
             value,
             ong_id,
         });
+
+        console.log(id);
 
         return res.json({ id })
     },
