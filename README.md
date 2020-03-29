@@ -16,7 +16,7 @@ Este é o projeto desenvolvido na Semana Omnistack 11.0 da Rocketseat. A aplica�
 <ul>
   <li>Node.js</li>
   <li>ReactJS</li>
-  <li>React Native [em desenvolvimento :hourglass_flowing_sand:]</li> 
+  <li>React Native</li> 
 </ul>
 
 ## Rodando a aplicação 
