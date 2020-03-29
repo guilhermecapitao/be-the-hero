@@ -11,13 +11,12 @@
 Este é o projeto desenvolvido na Semana Omnistack 11.0 da Rocketseat. A aplicação tem como objetivo intermediar as necessidades de ONG's que ajudam animais, com as pessoas que tenham interesse em ajudar financeiramente as mesmas.
 
 
-## Conceitos e ferramentas utilizadas até o momento
+## Tecnologias utilizadas:
 
 <ul>
-  <li>Knex</li>
-  <li>Nodemon</li>
-  <li>SQLite</li>
-  <li>Express</li>
+  <li>Node.js</li>
+  <li>ReactJS</li>
+  <li>React Native [em desenvolvimento :hourglass_flowing_sand:]</li> 
 </ul>
 
 ## Rodando a aplicação 
@@ -28,6 +27,11 @@ Este é o projeto desenvolvido na Semana Omnistack 11.0 da Rocketseat. A aplica�
 2 - `npx knex migrate:latest` para executar as migrations e criar as tabelas do banco de dados.
 
 3 - `npm start` para rodar o servidor.
+
+#### Front-end Web
+1 - `npm install` para baixar todas as dependências necessárias.
+
+2 - `npm start` para rodar o servidor.
 
 ## Rotas
 
